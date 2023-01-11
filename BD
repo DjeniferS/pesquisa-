@@ -1,0 +1,14 @@
+create table if not exists roupas(
+id int primary key auto_increment,
+modelo varchar (70),
+numeracao varchar (100)
+
+);
+
+select * from roupas;
+insert into roupas values
+(null, "calça cargo", "P,M,G");
+insert into roupas values
+(null, "calça moletom", "P,M,G");
+insert into roupas  values
+(null, "calça jens", "P,M,G");
